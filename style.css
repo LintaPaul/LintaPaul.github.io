@@ -43,6 +43,9 @@ h3,h4{
 .cb{
     align-content: center;
 }
+#services{
+    background-color: white;
+}
 .card:hover{
     cursor:pointer;
     transform: translateZ(1.3);
