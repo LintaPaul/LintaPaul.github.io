@@ -1,3 +1,8 @@
+$recaptcha = $_POST['g-recaptcha-response'];
+$res = reCaptcha($recaptcha);
+if(!$res['success']){
+  // Error
+}
 function reCaptcha($recaptcha){
   $secret = "6LeBBdwZAAAAAJWmaS22gjjx6Nznn7KGyJudKSTA";
   $ip = $_SERVER['REMOTE_ADDR'];
