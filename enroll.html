@@ -13,6 +13,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/eb953c93be.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
     </head>
     <body>
       <header>
@@ -35,7 +36,7 @@
     <section style="align-items: center;">
         <h3 class="Subheads">ENROLL NOW</h3>
         <h5 style="margin-left:10%;">Please fill in details and we will get back to you soon</h5>
-            <form class="content">
+            <form class="content" action="ct.php">
                 <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" class="form-control" id="name" placeholder="Enter name">
@@ -53,8 +54,9 @@
                   </select>
                 </div>
                 <div class="form-group">
-                    <input type="submi" class="clickbt" value="Submit Now">
+                    <input type="submit" class="clickbt" value="Submit Now">
                 </div>
+                <div class="g-recaptcha brochure__form__captcha" data-sitekey="6LeBBdwZAAAAAI7IiCrlmVQLordjsRmLIgO7PT6C"></div>
             </form>
     
     </section>
