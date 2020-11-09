@@ -135,3 +135,61 @@ footer{
     position: relative; 
     top: -5px;
 }
+.tab {
+    overflow: hidden;
+    border: 1px solid navy;
+    background-color:navy;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: navy;
+    float: left;
+    color:white;
+    border:white solid;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-radius: 10px;
+    margin:2px;
+  }
+  .tab button:hover{
+      background-color: white!important;
+      color:navy;
+      border-radius: 10px;
+      border:white solid;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: navy;
+  }
+  .tabbed{
+      background-color: navy;
+      color:white;
+      padding:12px;
+      margin:12px;
+  }
+ .service{
+     margin:2%;
+ }
+ .sercard{
+     border:none!important;
+     
+ }
+ .serbody{
+     background-color:#E6E6FA;
+     font-size:18px;
+     box-shadow: 2px 2px 4px #000000;
+ }
+ .card-header{
+     background-color: rgb(95, 95, 184)!important;
+     color:white;
+     box-shadow: 2px 2px 4px #000000;
+ }
+ .crrow{
+     display:flex;
+ }
+ #more {display: none;}
