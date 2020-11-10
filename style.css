@@ -193,3 +193,12 @@ footer{
      display:flex;
  }
  #more {display: none;}
+ .course{
+     margin-top:2%;
+     margin-bottom:2%;
+     font-size:18px;
+ }
+ .courseimg{
+     padding:2%;
+     object-fit: cover;
+ }
