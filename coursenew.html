@@ -4,6 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <title>ABG-Tutorials-testsite</title>
       <link rel="stylesheet" href="style1.css">
+     
       <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -52,7 +53,7 @@
               <a class="nav-link" href="blog.html">Blog</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="courses.html" tabindex="-1" aria-disabled="true">Courses</a>
+              <a class="nav-link" href="courseintro.html" tabindex="-1" aria-disabled="true">Courses</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact Us</a>
@@ -64,20 +65,17 @@
       <div>
         <div class="crtext">
             <h1>Course Name</h1>
-            <div style="position:relative;">
-            <svg width="1em" height="2em" viewBox="0 0 16 16" class="bi bi-alarm" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
-            </svg>Here we can give the time</div>
-            <div style="position:relative">
-            <svg width="1em" height="2em" viewBox="0 0 16 16" class="bi bi-calendar-event" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
-              <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
-            </svg>Date</div>
+            
+            
+            
+            
         </div>
         <img  class="d-block w-100  himg" src="img/locks.jpg" alt="image not loaded">
     </div>
-    
+    <div class="row courserow">
+    <div class="col-md-8 col-sm-12">
     <section>
+      
         <h3>About the Course</h3>
         <p>Here we can give a brief overview about the coursee...</p>
     </section>
@@ -97,12 +95,60 @@
           <li>Benefit2</li>
           <li>Benefit3</li>
         </ul>
+      
     </section>
-
+  </div>
+  <div class="col-md-4 col-sm-12">
     <section>
-      <button type="button" class="btn newbtn" data-toggle="modal" data-target="#exampleModal">
-        Enroll Now
-      </button>
+      <div class="card coursebox shadow-lg p-3 mb-5 bg-white rounded">
+         <div class="card-body">
+           <ul >
+             <li class="cdesc"><i class="fa fa-clock-o fa-lg" aria-hidden="true"></i>&emsp;Time</li>
+             <li class="cdesc"><i class="fa fa-calendar fa-lg" aria-hidden="true"></i>&emsp;Date</li>
+             <li class="cdesc"><i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>&emsp;Payment method</li>
+             <li class="cdesc"><i class="fa fa-bookmark fa-lg" aria-hidden="true"></i>&emsp;Chapters</li>
+           </ul>
+           <button type="button" class="btn newbtn" data-toggle="modal" data-target="#exampleModal">
+            Enroll Now
+          </button>
+          
+         </div>
+      </div>
+    </section>
+  </div>
+</div>
+      <section>
+        <h3>Featured Reviews</h3>
+        <br>
+        <div class="card col-6">
+          <div class="card-title reviewt">
+           <span><img src="img/client2.PNG" alt="Avatar" class="avatar">Name of the person</span>
+          </div>
+          <div class="card-body reviewb">
+            <p>Review about the course and some key advantages...</p>
+            <br>
+            Was this review helpful?&emsp;
+           <i class="fa fa-thumbs-up iconbt"></i>&emsp;
+            <i class="fa fa-thumbs-down iconbt"></i>
+          </div>
+        </div>
+        <br>
+        <div class="card col-6">
+          <div class="card-title reviewt">
+           <span><img src="img/client3.PNG" alt="Avatar" class="avatar">Name of the person</span>
+          </div>
+          <div class="card-body reviewb">
+            <p>Review about the course and some key advantages...</p>
+            <br>
+            Was this review helpful?&emsp;
+           <i class="fa fa-thumbs-up iconbt"></i>&emsp;
+            <i class="fa fa-thumbs-down iconbt"></i>
+          </div>
+        </div>
+      
+      </section>
+    
+    <section>
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -188,7 +234,7 @@
         <br><br>
         <div>
           <div style="text-align: center;justify-content: space-between;">
-            <i class="fa fa-facebook" aria-hidden="true"></i>&emsp;
+           <a href="https://facebook.com/alfabetagamma" target="blank" style="color:white;"><i class="fa fa-facebook" aria-hidden="true"></i></a> &emsp;
             <i class="fa fa-twitter" aria-hidden="true"></i>&emsp;
             <i class="fa fa-linkedin" aria-hidden="true"></i>&emsp;
             <i class="fa fa-youtube" aria-hidden="true"></i>&emsp;
