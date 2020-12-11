@@ -4,7 +4,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="img/devi-logo.png" type="image/png">
+        <link rel="icon" href="img/newlogo.png" type="image/png">
         <title>Devi and Co</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.css">
@@ -21,13 +21,7 @@
     <body>
         
         <!--================Header Menu Area =================-->
-     <header class="header_area">
-           	<div class="top_menu row m0">
-           		<div class="container">
-					
-					</div>
-           		</div>	
-           	</div>	
+        <header class="header_area">
             <div class="main_menu">
             	<nav class="navbar navbar-expand-lg navbar-light">
 					<div class="container">
@@ -41,24 +35,30 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 							<ul class="nav navbar-nav menu_nav ml-auto">
-								<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> 
-								<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li> 
-								<li class="nav-item submenu dropdown">
+								<li class="nav-item active"><a class="nav-link" href="index.html">
+                  <i class="fa fa-home" aria-hidden="true"></i>&emsp;Home</a></li> 
+								<li class="nav-item">
+                  <a class="nav-link" href="about-us.html"><i class="fa fa-bookmark" aria-hidden="true"></i>&emsp;About</a></li> 
+								<!--<li class="nav-item submenu dropdown">
 								<a href="service.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
 									<ul class="dropdown-menu">
 										<li class="nav-item"><a class="nav-link" href="projects.html">Construction&Property_Developers </a></li>
 										<li class="nav-item"><a class="nav-link" href="products.html">Solid_Blocks&Material_Supply </a></li>
 									</ul>
-								</li> 
-								<li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
-								<li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-							    <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+								</li> -->
+								<li class="nav-item"><a class="nav-link" href="products.html">
+                  <i class="fa fa-product-hunt" aria-hidden="true"></i>&emsp;Products</a></li>
+								<!--<li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>-->
+							    <li class="nav-item"><a class="nav-link" href="contact.html">
+                    <i class="fa fa-phone" aria-hidden="true"></i>&emsp;Contact</a></li>
 							</ul>
 						</div> 
+						
 					</div>
             	</nav>
             </div>
         </header>
+     
         <!--================Header Menu Area =================-->
               
         <!--================Home Banner Area =================-->
@@ -67,7 +67,7 @@
             	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
 				<div class="container">
 					<div class="banner_content text-center">
-						<h2>Contact Us</h2>
+                        <h2>Contact Us</h2>
 					</div>
 				</div>
             </div>
@@ -78,10 +78,12 @@
   <section id="contact" class="py-3">
     <div class="container">
       <div class="row">
-        <div class="col-md-7 pt-5">
-		  <div class="card p-4">
-            <!--p-4-->
-            <div class="card-body">
+        
+              
+            <div class="col-md-5 mt-5">
+		    <div class="card p-4" style="outline: none!important;border:none;">
+              <!--p-4-->
+              <div class="card-body">
               <h4>Get In Touch</h4>
               <p>Just a couple of text messages will clear your queries, right away...</p>
               <h4>Address</h4>
@@ -105,95 +107,132 @@
                                 <h6><a href="mailto:deviandco1963@gmail.com">deviandco1963@gmail.com</a></h6>
                                 <p>Send us your query anytime!</p>
                             </div>
+                        </div><!--contactinfo-->
+						 </div><!--cardbody-->
+                    </div><!--card-->
+                </div><!--col-->
+                <div class="col-md-2 pt-7">
+                    <div class="card mt-5" style="outline: none!important;border:none;text-align: center;">
+                        <div class="card-body">
+                            <h4 style="font-size:22px;">OR</h4>
                         </div>
-						 </div>
-          </div>
-        </div>
-        <div class="col-md-5 py-5">
+                    </div>
+                </div>
+                <div class="col-md-5 mt-5">
+                    <div class="card p-5" style="outline: none!important;border:none;">
+                      
+                  <div class="card-title">
+                    <h3>Drop us a line</h3>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input class="form-control" type="textbox" placeholder="Name*">
+                        </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input class="form-control" type="textbox" placeholder="Email*">
+                            </div>
+                            <div class="form-group">
+                                <label>Your message</label>
+                                <textarea class="form-control" placeholder="Message*"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="SEND" class="btn submit_btn w-100">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+                </div>
+          <div class="col-md-12 py-5 pl-4">
           <div class="card p-4">
             <!--p-4-->
             <div class="card-body cardfill">
               <h3 class="text-center">Google Maps</h3>
-              <div align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7832.956970225418!2d77.03596187059125!3d11.002681618672861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8576cc7963851%3A0x7f789dc60d906f52!2sDEVI%20%26%20CO!5e0!3m2!1sen!2sin!4v1607430509299!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
-                          </div>
-        </div>
-      </div>
-    </div>
+              <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7832.956970225418!2d77.03596187059125!3d11.002681618672861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8576cc7963851%3A0x7f789dc60d906f52!2sDEVI%20%26%20CO!5e0!3m2!1sen!2sin!4v1607430509299!5m2!1sen!2sin" width="1000" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+            </div><!--cardbody-->
+         </div><!--card-->
+     </div><!--col-->
+    </div><!--row-->
+    <hr>
+    </div><!--container-->
   </section>
        
         <!--================Contact Area =================-->
     <!--================ start footer Area  =================-->	
-  <footer class="page-footer font-small  text-white pt-4">
+    <footer class="page-footer font-small  text-white pt-4">
 
-    <div class="container text-center text-md-left">
-
-      <div class="row">
-
-        <div class="col-md-4">
-
-          <div class="single-footer-widget contact_wd">
-                            <h6 class="footer_title">Contact Us</h6>
-                            <p>38/4A Vignesh Nagar Civil Aerodrome Post, SIHS Colony, Coimbatore-641014</p>	
-                            <p><a href="Phone:+91 8248989025">+91 8248989025</a></p>			
-                            <p><a href="Phone:+91 8526068216">+91 8526068216</a></p>		
-                        </div>
-						<p>Send us your query anytime!<a class="d-block" href="mailto:manigroups05@gmail.com">manigroups05@gmail.com</p></a>
-        </div>
-
-
-        <hr class="clearfix w-100 d-md-none">
-
-
-                <div class="col-md-4 ">
-
-                     <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
-                                </div>
+        <div class="container text-center text-md-left">
+    
+          <div class="row">
+    
+            <div class="col-md-4">
+    
+              <div class="single-footer-widget contact_wd">
+                                <h6 class="footer_title">Contact Us</h6>
+                                <p>Devi and Co,<br>2231 Trichy Road,<br>Siganallur,<br>Coimbatore 641005</p>	
+                                <p><a href="Phone:04222573008">0422 2573008</a></p>			
+                                <p><a href="Phone:+91 9677995544">+91 9677995544</a></p>		
                             </div>
-				</div>
-				<div class="col-md-4">
-					<div class="form-group">
-						<textarea class="form-control" name="message" id="message" rows="5" placeholder="Enter Message(min 20 Characters)"></textarea>
-					</div>
-					<div class="col-md-12 text-right">
-                               <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
-                            </div>
-
-				</div>
-                        </form>
-
-
-        <hr class="clearfix w-100 d-md-none">
-	
-      </div>
-
-      <!-- Social buttons -->
-                <div class="row footer-bottom d-flex">
-                    <div class="offset-md-3 col-md-6 footer-social">
-                    <a style="background-color:#000099" href="https://www.facebook.com/pages/category/Real-Estate/Mani-Construction-and-Propertys-Developerss-1792346551086781/" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a style="background-color:#1589FF" href="https://jsdl.in/DT-21XUMLIYQ3K" target="_blank"><i class="fa fa-phone"></i></a>
-                        <a style="background-color:#25d366" href="https://wa.me/918248989025" target="_blank"><i class="fa fa-whatsapp"></i></a>
-                        <a style="background-color:#125688" href="https://www.instagram.com/mani_groups/" target="_blank"><i class="fa fa-instagram"></i></a>
-						<a style="background-color:#CC00FF" href="https://g.page/mani-construction-and-proper-957?is" target="_blank"><i class="fa fa-map"></i></a>
+                            <p>Send us your query anytime!<a class="d-block"  style="color: #44E7EB;" href="mailto:deviandco1963@gmail.com">deviandco1963@gmail.com</p></a>
+            </div>
+    
+    
+            <hr class="clearfix w-100 d-md-none">
+    
+    
+                    <div class="col-md-4 ">
+    
+                         <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+                                    </div>
+                                </div>
                     </div>
-                </div>
-      <hr>
-
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |<a href="http://manigroups.in" target="_blank">MANIGROUP</a>
-
-      </div>
-    </div>
-
-  </footer>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" id="message" rows="5" placeholder="Enter Message(min 20 Characters)"></textarea>
+                        </div>
+                        <div class="col-md-12 text-right">
+                                   <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
+                                </div>
+    
+                    </div>
+                            </form>
+    
+    
+            <hr class="clearfix w-100 d-md-none">
+        
+          </div>
+    
+          <!-- Social buttons -->
+                    <div class="row footer-bottom d-flex">
+                        <div class="offset-md-3 col-md-6 footer-social">
+                        <a style="background-color:#000099" href="https://www.facebook.com/pages/category/Real-Estate/Mani-Construction-and-Propertys-Developerss-1792346551086781/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a style="background-color:#1589FF" href="https://jsdl.in/DT-21XUMLIYQ3K" target="_blank"><i class="fa fa-phone"></i></a>
+                            <a style="background-color:#25d366" href="https://wa.me/918248989025" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                            <a style="background-color:#125688" href="https://www.instagram.com/mani_groups/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a style="background-color:#CC00FF" href="https://g.page/mani-construction-and-proper-957?is" target="_blank"><i class="fa fa-map"></i></a>
+                        </div>
+                    </div>
+          <hr>
+    
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |<a href="http://manigroups.in" style="color: #44E7EB;" target="_blank">DeviandCo</a>
+    
+          </div>
+        </div>
+    
+      </footer>
     		<!--================ End footer Area  =================-->
         
 	 
